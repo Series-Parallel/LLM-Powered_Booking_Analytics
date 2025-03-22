@@ -1,0 +1,18 @@
+Task 5: (Part 1) Evaluation
+
+Query 1: " What is total revenue of the document? "
+Expected: The total revenue of the document is 42723497.53.
+Got: The total revenue of the document is 42723497.53.
+
+Query 2: " Show me total revenue for July 2017 "
+Expected: Some value
+Got: Nothing
+
+Query 3: "Which locations had the highest booking cancellations?"
+Expected: PTR
+Got: Nothing
+
+
+
+The model is facing some issues and I cant seem to solve those! The already solved analytics are working but the model is not able to 
+compute non-mathematical queries! I think there might be issue with the structuring of the database in vector database!

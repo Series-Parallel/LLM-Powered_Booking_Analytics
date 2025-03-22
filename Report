@@ -1,0 +1,16 @@
+The report for Building an LLM-Powered Booking Analytics & QA System:
+
+In this project, first I used the dataset which was provided in the assesment file. I preprocessed the data by handling the missing values. Then, added some features in order to get better understanding of the dataset.
+
+Secondly, I analysed the data by using various methods provided in the questionaire. Visualize with using matplotlin.pyplot and seaborn libraries.
+
+Third, I prepared vector database. before starting this project I had no idea about LLMS and RAGS so I did reasearch and work my way out by studying! In order to apply LLMs I got to know that you need vector databases to store the text values by converting them to vectors. That seemed easier at first but the challenge here was that it is very difficult to convert "CSV" files to vector database. I mean, it's not that hard but you have to study the dataset properly and get a good understanding of the dataset and then you have to convert it into structured format so that it is easy for information retrieval. I got to  apply my uni knowledge here! The structuing of database was taking 2 hours of time in google colab. I had to do that 2 hours of waiting for 2 times because I made some mistakes!! Then, suddenly I remebered that you can use "GPU of COLAB". The task which took 2hours to execute got completed in just 6 mins!!!
+
+Fourth, one of the most confusing and difficult task for me! To build LLM model. A lot of my time was used in this task. At first, I was not at all able to understand what it was doing. I spend hours and hours searching through web, reading blogs, understanding codes and watching videos related to it. Then got a little understanding, enough to build LLM for this project. However, I am still having many questions and doubts regarding this but I will soon be able to understand nicely by practicing. After, understanding LLM it was clear that if you want to train your AI for specific data you configure it with RAG! So made that. For this task, I took a lot of help from the internet! Copied and Tried so many different types of LLMs with/without RAG from different blogs and posts.
+
+Fifth, API Integration. Until now, I made projects which only used basics Machine Learning algorithms. So I used to train my models on the Colab then download their .pkl files and integrate FLask from my local machine. But here there was a challenge, my pc cant handle such advance deep learning models like LLMs. So I had to integrate API in colab only! I never knew that u can do that in COLAB until today! ChatGPT to the rescue for this task. ChatGPT showed me simple and easy way to integrate flask API on Colab which in turn had to be connected to the local mahcine! The middle-man which made connection is "ngrok".
+
+One more challenged I faced was making the prompt template for the RAG! That was one of the perplexing task! Still, spending hours behind it, my AI is not able to give answers :'). Eventhough, my task is not perfect, I am very happy that I was able to make it. I hope I get any chance further regarding this internship! 
+
+Thank you!
+-By Deo Pathak
